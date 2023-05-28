@@ -1,0 +1,49 @@
+img{
+    width: 600px;
+    height: 600px;
+}
+.detail{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px  solid grey;
+    border-radius: 5px;
+    background-color: rgb(228, 225, 225);
+
+}
+.detail a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    display: block;
+
+    &:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+    
+}
+.detail p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+
+    &:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+}
+h1{
+    background-color: grey ;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+    &:hover{
+        color: orange;
+    }
+}
